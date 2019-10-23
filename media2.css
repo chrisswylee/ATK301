@@ -1,0 +1,118 @@
+
+
+body {
+  background: url("assets/curlycue.png") ;
+
+
+}
+
+header {
+  background-color: black;
+  color: white;
+  /*padding: 15px;*/
+  font-family: helvetica;
+  grid-column: span 4;
+
+
+}
+
+h2 {
+  font-family: helvetica;
+  border-bottom: 4px solid black;
+
+}
+
+div {
+  background-color: white;
+  border: 2px solid black;
+  /*width: 1050px;
+  margin: auto;
+  padding: 10px;*/
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) ;
+  grid-template-rows: 100px auto 75px;
+
+
+}
+
+nav {
+  /*float: left;*/
+  grid-column: span 1;
+
+
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+li {
+  background-color: red;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: -35px;
+  /*padding: 10px;
+  width: 235px;*/
+
+
+
+}
+
+li:hover {
+  background-color: black;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+}
+
+main {
+  /*width:750px ;
+  margin-left: 270px;*/
+  grid-column: span 3;
+
+}
+
+.red {
+  color:red;
+  font-weight: bold;
+
+}
+
+img {
+
+  float: left;
+  /*margin: 10px;
+  width: 400px;*/
+  border: 3px solid black;
+  /*padding: 5px;*/
+
+
+
+}
+
+
+
+footer {
+  background-color: red ;
+  /*padding: 10px;*/
+  color: white;
+  font-family: verdana;
+  border: 2px solid black;
+  font-style: italic;
+  /*margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+  margin-top: 5px;*/
+  font-size: 15px;
+  text-align: center;
+  border-top: 4px solid black;
+  grid-column: span 4;
+
+
+}
