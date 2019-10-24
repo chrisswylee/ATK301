@@ -1,0 +1,156 @@
+body {
+  background: url("assets/curlycue.png") ;
+
+
+}
+
+header {
+  background-color: black;
+  color: white;
+  /*padding: 15px;*/
+  font-family: helvetica;
+  grid-column: span 4;
+
+
+}
+
+h2 {
+  font-family: helvetica;
+  border-bottom: 4px solid black;
+
+}
+
+div {
+  background-color: white;
+  border: 2px solid black;
+  /*width: 1050px;
+  margin: auto;
+  padding: 10px;*/
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) ;
+  grid-template-rows: 100px auto 75px;
+  <div id="form" style="margin: 0 auto; width: 350px;">
+				<p class="form" id="vorschauanrede" style="display: block;">
+				Title: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="anrede" value="Mr."> &nbsp;&nbsp;Mr. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="anrede" value="Mrs."> &nbsp;&nbsp;Mrs.			</p>
+						<p class="form" id="vorschauvorname" style="display: none;">
+					First Name: <br>
+					<input type="text" style="width: 100%;" class="form" id="vorschauinputvorname">
+				</p>
+							<p class="form" id="vorschauname" style="display: block;">
+					Name: <br>
+					<input type="text" style="width: 100%;" class="form" id="vorschauinputname">
+				</p>
+							<p class="form" id="vorschauemail" style="display: block;">
+					E-Mail: <br>
+					<input type="email" style="width: 100%;" class="form" id="vorschauinputemail">
+				</p>
+							<p class="form" id="vorschaubetreff" style="display: block;">
+					Subject: <br>
+					<input type="text" style="width: 100%;" class="form" id="vorschauinputbetreff">
+				</p>
+						<p class="form" id="vorschaunachricht" style="display: block;">
+				Message: <br>
+				<textarea style="width: 100%;" rows="9" class="form" id="vorschauinputnachricht"></textarea>
+			</p>
+						<p class="form" id="vorschaustrasse" style="display: none;">
+					Street: <br>
+					<input type="text" style="width: 100%;" class="form" id="vorschauinputstrasse">
+				</p>
+							<table style="width: 100%;border: none;border-spacing: 0px;">
+					<tbody><tr>
+						<td style="width:80px;">
+							<p class="form" id="vorschauplz" style="display: none;">
+								ZIP: <br>
+								<input type="text" size="10" class="form" id="vorschauinputplz" style="width: 50px;">
+							</p>
+						</td>
+									<td>
+							<p class="form" id="vorschaustadt" style="display: none;">
+								Town: <br>
+								<input type="text" class="form" id="vorschauinputstadt" style="width: 100%;">
+							</p>
+						</td>
+					</tr>
+				</tbody></table>
+							<p class="form" id="vorschautelefon" style="display: none;">
+					Phone: <br>
+					<input type="tel" style="width: 100%;" class="form" id="vorschauinputtelefon">
+				</p>
+							<p class="form" id="vorschauwebseite" style="display: none;">
+					Website: <br>
+					<input type="url" style="width: 100%;" class="form" id="vorschauinputwebseite">
+				</p>
+				<div class="g-recaptcha" data-sitekey="6LfgNfoSAAAAABItyuRsaNmRFAs4peXVJxT0_Cag"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfgNfoSAAAAABItyuRsaNmRFAs4peXVJxT0_Cag&amp;co=aHR0cDovL2ZveHlmb3JtLmNvbTo4MA..&amp;hl=en&amp;v=5fbZx3NV5xhaMoMLrZV3TkN4&amp;size=normal&amp;cb=2b528xh5wvwn" width="304" height="78" role="presentation" name="a-mfydvi3j6k20" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response-1" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div>
+	<p class="form" style="text-align: center;"><input type="submit" value="Send message!" class="formsubmit" id="vorschausubmit1" onclick="alert('This is only a preview!'); return false;"></p>
+</div>
+
+}
+
+nav {
+  /*float: left;*/
+  grid-column: span 1;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  background-color: red;
+margin-top: 12px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  /*  margin-left: -35px;
+  padding: 10px;
+  width: 235px;*/
+/*  grid-column: span 1;*/
+}
+
+li:hover {
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  /*width:750px ;
+  margin-left: 270px;*/
+  grid-column: span 3;
+}
+
+.red {
+  color:red;
+  font-weight: bold;
+}
+
+img {
+  float: left;
+  margin: 10px;
+  /*width: 400px;*/
+  border: 3px solid black;
+  /*padding: 5px;*/
+}
+
+
+
+footer {
+  background-color: red ;
+  /*padding: 10px;*/
+  color: white;
+  font-family: verdana;
+  border: 2px solid black;
+  font-style: italic;
+  /*margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+  margin-top: 5px;*/
+  font-size: 15px;
+  text-align: center;
+  border-top: 4px solid black;
+  grid-column: span 4;
+
+
+}
