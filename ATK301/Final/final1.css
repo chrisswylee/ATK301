@@ -1,0 +1,81 @@
+body {
+background-color: red;
+
+
+}
+
+header {
+background-color: black;
+color: yellow;
+
+
+
+}
+
+h1 {
+background-color: black;
+color: yellow ;
+display: inline;
+margin: 40px;
+
+}
+
+h2 {
+  font-family: helvetica;
+  float: left;
+  background-color: black;
+  color: white:
+
+}
+
+div {
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+  width: 2000px;
+  margin: auto;
+  padding: 10px;
+
+
+
+}
+
+nav {
+  float: right;
+  width: 2000px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+
+}
+
+li:hover {
+
+}
+
+a {
+
+}
+
+main {
+
+
+}
+
+
+img {
+float: right;
+margin: auto;
+width: 1000px;
+}
+
+
+
+footer {
+
+
+}
