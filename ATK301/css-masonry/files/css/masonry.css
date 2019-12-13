@@ -60,6 +60,7 @@ a {
   transition: all .5s ease-in-out;
   column-gap: 30px;
   column-fill: initial;
+column-rule: 1px solid #eee;
 }
 
 /* Masonry item */
@@ -67,6 +68,7 @@ a {
   margin-bottom: 30px;
   display: inline-block; /* Fix the misalignment of items */
   vertical-align: top; /* Keep the item on the very top */
+
 }
 
 /* Masonry image effects */
@@ -81,8 +83,9 @@ a {
 
 /* Bordered masonry */
 .masonry.bordered {
-  /* column-rule: 1px solid #eee; */
-  column-gap: 0;
+  /* column-rule: 0px solid #eee;
+  column-gap: 50px; */
+  column-count: 1 ;
 
 }
 
@@ -94,17 +97,24 @@ a {
   height: 400px ;
   text-align: center ;
   margin-left: 210px ;
-  font-size: 1em ;
+  font-size: 3em ;
   font-family: Helvetica;
   font-weight: 700 ;
+
 }
 
 .masonry.bordered .text {
   text-align: center;
-  font-size: 1em ;
+  font-size: 1.15em ;
   font-family: Helvetica ;
-  margin: auto ;
-  padding-top: 1000px;
+  /* border: 1px solid black; */
+  /* padding-top: 75px;
+  padding-left: 100px;
+  padding-right: 100px; */
+  font-weight: 520;
+  margin-left: 150px;
+  margin-right: 150px;
+
 
 
 }
@@ -116,6 +126,7 @@ a {
 
 .masonry.gutterless .brick {
   margin-bottom: 0;
+  padding-left: 200px ;
 
 }
 
